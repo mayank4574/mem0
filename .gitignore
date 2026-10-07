@@ -1,0 +1,45 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python build and cache
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+wheels/
+*.egg-info/
+.cache/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node dependencies (if any)
+node_modules/
+
+# Local databases and Mem0 / Qdrant runtime storage
+.mem0/
+qdrant_data/
+*.sqlite
+*.sqlite3
+*.db
+*.lock
+!uv.lock
+
+# Operating System files
+.DS_Store
+Thumbs.db
