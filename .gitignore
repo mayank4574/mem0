@@ -5,9 +5,10 @@ build/
 dist/
 wheels/
 *.egg-info
+*.log
 
 # Virtual environments
-.venv
+.venv/
 venv/
 ENV/
 env/
@@ -28,3 +29,13 @@ qdrant_data/
 *.sqlite
 *.sqlite3
 *.db
+*.lock
+!uv.lock
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
